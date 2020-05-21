@@ -10,7 +10,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link type="text/css" rel="stylesheet" href="{{ mix('css/app.css') }}">
      <link rel="stylesheet" href="./css/home.css">
-       <link href="./node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet" type="text/css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <div class="menu1">
@@ -22,13 +22,13 @@
             </div>
             <div class="navbar-nav ml-auto">
                       <a class="btn-floating btn-fb mx-1">
-        <i class="fab fa-facebook-f fa-2x" style="color: blue"> </i>
+        <i class="fa fa-facebook-f fa-2x" style="color: blue"> </i>
       </a>
                     <a class="btn-floating btn-tw mx-1">
-        <i class="fab fa-twitter fa-2x" style="color: #2aa9e0"> </i>
+        <i class="fa fa-twitter fa-2x" style="color: #2aa9e0"> </i>
       </a>
             <a class="btn-floating btn-gplus mx-1">
-        <i class="fab fa-google-plus-g fa-2x" style="color: red"> </i>
+        <i class="fa fa-google fa-2x" style="color: red"> </i>
       </a>
             </div>
         </div>
@@ -49,7 +49,9 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="#">Arquitectura</a>
           <a class="dropdown-item" href="#">Engenharia Civil</a>
+          <a class="dropdown-item" href="#">Infrastruturas </a>
           <a class="dropdown-item" href="#">Instalações Técnicas</a>
+          <a class="dropdown-item" href="#">Imobiliario</a>
         </div>
       <a class="nav-item nav-link" href="#" style="color: white">Sobre Nós</a>
     </div>
@@ -65,9 +67,9 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="./img/img2.png" class="d-block w-100" alt="...">
+      <img src="./img/img6.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <button id="bt_slide1">Ver Detalhes<i class="fas fa-arrow-right"></i></button>
+        <button id="bt_slide1">Ver Detalhes<i class="fa fa-arrow-right"></i></button>
         
       </div>
     </div>
@@ -182,16 +184,16 @@
 </div>
 <div class="form">
 <div class="container" id="container2">
-  <form>
+  <form method="post" action="processo.php">
     <div class="form-group">
       <label></label>
-      <input type="text" name="" class="form-control" placeholder="Nome" id="text">     
+      <input type="text" name="nome" class="form-control" placeholder="Nome" id="text">     
     </div>
         <div class="form-group">
-      <input type="text" name="" class="form-control" placeholder="Email">     
+      <input type="text" name="email" class="form-control" placeholder="Email">     
     </div>
         <div class="form-group">
-      <textarea class="textarea">Comentarios
+      <textarea class="textarea" name="comentario" rows="4" cols="50" placeholder="Insira o Comentario" style="color: black">
       </textarea>    
     </div>
     <div class="form-group">
@@ -265,13 +267,13 @@
 
         <ul class="list-unstyled">
           <li>
-            <p><i class="fas fa-home mr-3" style="color: white"></i>Cidade de Matola, rua Rogerio Dzawana</p>
+            <p><i class="fa fa-home mr-3" style="color: white"></i>Cidade de Matola, rua Rogerio Dzawana</p>
           </li>
           <li>
-        <p><i class="fas fa-phone mr-3" style="color: white"></i> (+285) 820897710 | 870897710</p>
+        <p><i class="fa fa-phone mr-3" style="color: white"></i> (+285) 820897710 | 870897710</p>
           </li>
                     <li>
-        <p><i class="fab fa-facebook-f mr-3" style="color: white"></i> Thulines Arquitectura e Engenharia</p>
+        <p><i class="fa fa-facebook-f mr-3" style="color: white"></i> Thulines Arquitectura e Engenharia</p>
           </li
         </ul>
 
@@ -289,17 +291,17 @@
   <ul class="list-unstyled list-inline text-center">
     <li class="list-inline-item">
       <a class="btn-floating btn-fb mx-1">
-        <i class="fab fa-facebook-f" style="color: blue"> </i>
+        <i class="fa fa-facebook-f" style="color: blue"> </i>
       </a>
     </li>
     <li class="list-inline-item">
       <a class="btn-floating btn-tw mx-1">
-        <i class="fab fa-twitter" style="color: #2aa9e0"> </i>
+        <i class="fa fa-twitter" style="color: #2aa9e0"> </i>
       </a>
     </li>
     <li class="list-inline-item">
       <a class="btn-floating btn-gplus mx-1">
-        <i class="fab fa-google-plus-g" style="color: red"> </i>
+        <i class="fa fa-google" style="color: red"> </i>
       </a>
     </li>
   </ul>

@@ -1,0 +1,13 @@
+.img{
+	width: 100%;
+	height: auto;
+}
+.img-fluid{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+width: 100%;
+}
+#table2{
+	border: none;
+}

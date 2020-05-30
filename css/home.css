@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
-@import "sprites.less";
-@import "path/to/font-awesome/less/font-awesome.less";
+
 *{
     font-family:'Roboto', sans-serif;   
 }
@@ -133,4 +132,8 @@ input{
 	background-color: white;
 	color: black;
 	border-color: black;
+}
+.nav-item:hover{
+font-weight: bold;
+color: #000;	
 }

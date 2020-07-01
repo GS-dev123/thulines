@@ -134,7 +134,7 @@ input{
  -moz-background-size: cover;
  -o-background-size: cover;
  background-size: cover;
- height: 450px;
+ height: 400px;
 
 }
 #text{
@@ -142,6 +142,8 @@ input{
 }
 #sub{
 	border-color: white;
+  position: relative;
+  top: -10px;
 }
 #sub:hover{
 	background-color: white;
@@ -178,7 +180,6 @@ input{
 }
 .logo{
   position: relative;
-  left: 30px;
 }
 .btn-destaques{
   position: relative;

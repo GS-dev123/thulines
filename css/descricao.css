@@ -13,12 +13,11 @@ width: 100%;
 	top: -8px;
 }
 .container{
-	width: 950px;
 	height: auto;
 }
 .container-descricao{ 
 
-  max-width: 100%;
+max-width: 100%;
 height: auto;
 max-height: 100%;
 position: relative;

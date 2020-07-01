@@ -1,9 +1,9 @@
 @font-face {
-	font-family: gilroyBold;
-	src: url('Gilroy-Bold.ttf');
+  font-family: gilroyBold;
+  src: url('gilL.otf');
 }
 *{
-	font-family: gilroyBold;
+  font-family: gilroyBold;
 }
 .Parceiros{
 	width: 70px;

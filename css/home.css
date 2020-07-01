@@ -2,11 +2,15 @@
 
 @font-face {
   font-family: gilroyBold;
-  src: url('Gilroy-Bold.ttf');
+  src: url('gilL.otf');
+}
+*{
+  font-family: gilroyBold;
 }
 
 body{
   background-color: #fff;
+  font-family: gilroyBold;
 }
 h1{
   font-size: 70px;

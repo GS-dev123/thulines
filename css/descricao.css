@@ -8,6 +8,29 @@
 	margin-right: auto;
 width: 100%;
 }
-#table2{
-	border: none;
+.table-bordered{
+	position: relative;
+	top: -8px;
+}
+.container{
+	width: 950px;
+	height: auto;
+}
+.container-descricao{ 
+
+  max-width: 100%;
+height: auto;
+max-height: 100%;
+position: relative;
+top: 15px;
+}
+td, h2{
+	color: white;
+}
+h5{
+	font-weight: bold;
+}
+.back{
+	position: relative;
+	margin-top: 8px;
 }

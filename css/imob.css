@@ -1,0 +1,83 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: ropest;
+	src: url('Patinio Futura.ttf');
+}
+section{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	background: #ff319c url("../img/mobi.png");
+	background-size: cover;
+	height: 45vh;
+	width: 100%;
+}
+#curve{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+#curve path{
+	fill: #fff;
+}
+.sec2{
+	width: 100%;
+	height: 100vh;
+	background: #fff;
+}
+label.desc{
+	font-family: ropest;
+	font-size: 85px;
+	color: white;
+}
+h3{
+	font-family: ropest;
+}
+.x{
+	position: relative;
+	right: -15px;
+	top: 110px;
+}
+
+.lab_conc{
+	position: relative;
+	font-size: 20px;
+	font-family: ropest;
+	font-weight: bold;
+	color: black;
+	bottom: -25px;
+}
+hr{
+	background: #3cb64a;
+	width: 80%;
+	margin-left: initial;
+}
+.card-group{
+  padding-right:20px;
+  padding-left: 20px;
+  padding-bottom: 0px;
+
+
+}
+.card{
+  margin-right: 8px;
+  margin-top: 8px;
+  border: none;
+
+}
+.card-text{
+	font-size: 12px;
+}
+.sec-row{
+	margin-top: 10px;;
+}
+.footer-copyright{
+	background-color: #3cb64a;
+	font-size: 15px;
+}
+.footer{
+	background-color: #3471a8;
+}

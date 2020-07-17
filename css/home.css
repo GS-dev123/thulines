@@ -84,7 +84,7 @@ hr{
 .card-title{
   position: relative;
   top: -20px;
-  font-size: 25px;
+  font-size: 20px;
 }
 .card-group{
   padding-right:25px;
@@ -105,11 +105,11 @@ hr{
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
-	width: 100%;
+  width: 100%;
+}
   .nav-link{
     background-color: yellow;
   }
-}
 #card_parceiros{
 	border:none;
 }

@@ -114,16 +114,13 @@ hr{
 	border:none;
 }
 .footer-copyright{
-	background-color: #3cb64a;
+  background-color: #3cb64a;
+  font-size: 12px;
 }
 .footer{
 	background-color: #3471a8;
 }
-#container2{
-	position: relative;
-	bottom: -13%;
-	width: 450px;
-}
+
 input{
 	background-color: white;
 }
@@ -138,8 +135,11 @@ input{
  -moz-background-size: cover;
  -o-background-size: cover;
  background-size: cover;
- height: 400px;
 
+}
+.sent{
+  position: relative;
+right: 45px;
 }
 #text{
 	position: relative;

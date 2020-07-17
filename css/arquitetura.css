@@ -64,6 +64,7 @@ hr{
 .card{
   margin-right: 8px;
   margin-top: 8px;
+  border: none;
 
 }
 .card-text{

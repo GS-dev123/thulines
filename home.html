@@ -108,7 +108,7 @@
   <div class="container cont-services">
     <!--Produto-->
     <div class="text-center desc-services">
-      <h2><b>Nossos Serviços</b></h2>
+      <label class="d"> Nossos Serviços </label>
       <h6>Serviços de Arquitectura e engenharia de pequena, media e grande porte performance.</h6>
     </div>
     <div class="card-group">
@@ -184,8 +184,8 @@
   <div class="container-fluid container-destaques">
     <div class="container container-destaques">
       <div class="text-center desc-destaques">
-        <h2><b>Destaques</b></h2>
-        <h5>Os nossos recentes trabalhos</h5>
+        <label class="d"> Destaques </label>
+        <h6>Os nossos recentes trabalhos</h6>
       </div>
       <div class="card-group" >
         <div class="card card-destaque text-center" id="card_parceiros">
@@ -250,18 +250,18 @@
   <div class="container" id="container2">
     <div class="row">
       <div class="col-md-6">
-    <h4 class="text-center" style="color: white"><i class="fa fa-angle-double-down"></i>  Deixe o seu comentario!!!!!  <i class="fa fa-angle-double-down"></i></h4>
+    <h5 class="text-center form" style="color: white"><i class="fa fa-angle-double-down"></i>  Deixe o seu comentario!!!!!  <i class="fa fa-angle-double-down"></i></h5>
     <div class="form">
-      <form>
+      <form method="POST" action="email.php">
         <div class="form-group">
           <label></label>
           <input type="text" name="nome" class="form-control" placeholder="Nome" id="text">     
         </div>
         <div class="form-group">
-          <input type="text" name="email" class="form-control" placeholder="Email">     
+          <input type="text" name="email" class="form-control" placeholder="Email" id="text">     
         </div>
         <div class="form-group">
-          <textarea class="textarea" name="comentario" rows="4" cols="50" placeholder="Insira o Comentario" style="color: black">
+          <textarea class="textarea" name="comentario" rows="4" cols="50" placeholder="Insira o Comentario" style="color: black">Escreva aqui
           </textarea>    
         </div>
         <div class="form-group">
@@ -271,7 +271,7 @@
     </div>
   </div>
   <div class="col-md-6 text-center">
-    <img class="sent" src="./img/email.png" width="550px" >
+    <img class="sent" src="./img/email.png" width="450px" >
   </div>
   </div>
   </div>
@@ -300,31 +300,28 @@
 
         <!-- Grid column -->
 
-        <div class="col-md-4">
+        <div class="col-md-4" class="xx">
           <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Nossos Serviços</h5>
           <ul class="list-unstyled">
             <li>
-              <a href="" style="color: #282828">Arquitectura</a>
+              <a href="" style="color: black;">Arquitectura</a>
             </li>
             <li>
-             <a href="" style="color: #282828">Construção Civil</a>
+             <a href="" style="color: black;">Construção Civil</a>
            </li>
            <li>
-            <a href="" style="color: #282828">Imobiliario</a>
+            <a href="" style="color: black;">Imobiliario</a>
           </li>
           <li>
-            <a href="" style="color: #282828">Instalações Técnicas</a>
+            <a href="" style="color: black;">Instalações Técnicas</a>
           </li>
           <li>
-            <a href="" style="color: #282828">Infraestruturas</a>
+            <a href="" style="color: black;">Infraestruturas</a>
           </li>
-        </ul>
-        
-
-        
-        
-        
-        
+          <li>
+            <a href="" style="color: black;">Vendas/Compras</a>
+          </li>
+        </ul>  
       </div>
 
       <!-- Grid column -->

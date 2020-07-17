@@ -4,6 +4,10 @@
   font-family: gilroyBold;
   src: url('gilL.otf');
 }
+@font-face {
+	font-family: ropest;
+	src: url('Patinio Futura.ttf');
+}
 *{
   font-family: gilroyBold;
 }
@@ -52,8 +56,8 @@ h1{
 #bt_slide1{
   width: 150px;
   height: 40px;
-  border-radius: 8px;
   background-color: #3cb64a;
+  border-radius: 0px;
 }
 
 #bt_slide1:hover{
@@ -62,10 +66,11 @@ h1{
  width: 150px;
  height: 42px;
 }
-
 .btn{
 	background-color: #3cb64a;
   border: none;
+  font-size: 12px;
+  border-radius: 0px;
 }
 .lbl_produto{
   color: #000;
@@ -74,23 +79,37 @@ h1{
 .card-text{
  position: relative;
  top: -20px;
+ font-size: 12px;
 }
 hr{
 	position: relative;
 	top: -20px;
   border: 1px solid #3cb64a;
-
 }
 .card-title{
   position: relative;
   top: -20px;
-  font-size: 20px;
+  font-size: 15px;
+  font-family: ropest;
+  color: #000;
+}
+.form{
+  position: relative;
+  top: 6px;
+}
+.d{
+  font-size: 24px;
+  font-family: ropest;
+  margin-top: 10px;
+  color: #000;
+}
+h6{
+  font-size: 14px;
 }
 .card-group{
   padding-right:25px;
   padding-left: 25px;
   padding-bottom: 25px;
-
 }
 .card{
   margin-right: 8px;
@@ -109,6 +128,7 @@ hr{
 }
   .nav-link{
     background-color: yellow;
+    font-size: 13px;
   }
 #card_parceiros{
 	border:none;
@@ -118,9 +138,9 @@ hr{
   font-size: 12px;
 }
 .footer{
-	background-color: #3471a8;
+  background-color: #3471a8;
+  color: #000;
 }
-
 input{
 	background-color: white;
 }
@@ -138,11 +158,13 @@ input{
 
 }
 .sent{
-  position: relative;
+position: relative;
 right: 45px;
+top: 20px;
 }
 #text{
-	position: relative;
+  position: relative;
+  border-radius: 0px;
 }
 #sub{
 	border-color: white;
@@ -152,7 +174,7 @@ right: 45px;
 #sub:hover{
 	background-color: white;
 	color: black;
-	border-color: black;
+  border: 2px solid #3cb64a;
 }
 .nav-item:hover{
   font-weight: bold;
@@ -165,9 +187,7 @@ right: 45px;
   background-color: white;
   position: relative;
   top: 10px;
-
 }
-
 .cont-services{
   background-color: white;
   position: relative;
@@ -179,7 +199,6 @@ right: 45px;
   margin-top: 10px;
 }
 #img_parceiros{
-  border-radius: 10px;
   width: 100%;
 }
 .logo{
@@ -188,8 +207,12 @@ right: 45px;
 .btn-destaques{
   position: relative;
   width: 100%;
-  border-radius: 10px;
+  font-size: 12px;
   top: -30px;
+}
+.btn-destaques:hover{
+  color: #fff;
+  background-color: blue;
 }
 .card-destaque{
   background-color:#f6f5f5; 
@@ -204,8 +227,6 @@ right: 45px;
 .nav-item:hover, .dropdown-toggle:hover{
   background-size: 100% 5px, auto; 
 }
-
-
 .link:hover{
   text-decoration: none;
   color: #000;
@@ -246,7 +267,6 @@ right: 45px;
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
 }
-
 .infra{
   position: relative;
   top: 35px;

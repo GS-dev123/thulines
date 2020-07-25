@@ -4,61 +4,66 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="./css/home.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="imagem/png" href="./img/logo.png"/>
 </head>
 <body>
   <div class="menu1">
     <nav class="navbar navbar-expand-md navbar-light">
-      <img src="./img/logo.png" alt="" class="logo" class="d-inline-block align-top" alt="" width="60px">
+      <img src="./img/logo.png" alt="" class="logo animate__animated animate__backInRight" class="d-inline-block align-top" alt="" width="60px">
 
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav">
         </div>
         <div class="navbar-nav ml-auto">
           <a class="btn-floating btn-fb mx-1">
-            <i class="fa fa-facebook-f fa-2x" style="color: #3cb64a"> </i>
+            <i class="fa fa-facebook-f fa-2x animate__animated animate__backInLeft" style="color: #3cb64a"> </i>
           </a>
           <a class="btn-floating btn-tw mx-1">
-            <i class="fa fa-twitter fa-2x" style="color: #3cb64a"> </i>
+            <i class="fa fa-twitter fa-2x animate__animated animate__backInLeft" style="color: #3cb64a"> </i>
           </a>
           <a class="btn-floating btn-gplus mx-1">
-            <i class="fa fa-google fa-2x" style="color: #3cb64a"> </i>
+            <i class="fa fa-google fa-2x animate__animated animate__backInLeft" style="color: #3cb64a"> </i>
           </a>
         </div>
       </div>
     </nav>
   </div>
   <!-- Menu de Navegacao -->
-  <nav class="navbar navbar-expand-lg" id="navbar2">
+  <nav class="navbar navbar-expand-lg animate__animated animate__backInUp" id="navbar2">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon">»»»</span>
+      <span class="navbar-toggler-icon"><i class="fa fa-sliders fa-2x" style="color: white"></i></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link" href="" style="color: white">Inicio</a>
+        <a class="nav-item nav-link" href="index.html" style="color: white">Home</a>
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white">
           Nossos Serviços 
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="https://gs-dev123.github.io/thulines/sobre">Arquitectura</a>
-          <a class="dropdown-item" href="https://gs-dev123.github.io/thulines/sobre">Engenharia Civil</a>
-          <a class="dropdown-item" href="https://gs-dev123.github.io/thulines/sobre">Infrastruturas </a>
-          <a class="dropdown-item" href="https://gs-dev123.github.io/thulines/sobre">Instalações Técnicas</a>
-          <a class="dropdown-item" href="https://gs-dev123.github.io/thulines/sobre">Imobiliario</a>
+          <a class="dropdown-item" href="arquitetura.html">Arquitectura</a>
+          <a class="dropdown-item" href="eng_civil.html">Engenharia Civil</a>
+          <a class="dropdown-item" href="infraestruturas.html">Infrastruturas </a>
+          <a class="dropdown-item" href="instalacoes.html">Instalações Técnicas</a>
+          <a class="dropdown-item" href="imobiliario.html">Imobiliario</a>
         </div>
-        <a class="nav-item nav-link" href="https://gs-dev123.github.io/thulines/sobre" style="color: white">Sobre Nós</a>
-        <a class="nav-item nav-link" href="https://gs-dev123.github.io/thulines/contacto" style="color: white">Contacto</a>
+        <a class="nav-item nav-link" href="sobre.html" style="color: white">Sobre Nós</a>
+        <a class="nav-item nav-link" href="contacto.html" style="color: white">Contacto</a>
       </div>
     </div>
   </nav>
 
   <!-- Slide-->
-  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <div id="carouselExampleCaptions" class="carousel slide  animate__animated animate__backInDown" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -69,28 +74,28 @@
       <div class="carousel-item active">
         <img src="./project3/p1.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <a href="https://gs-dev123.github.io/thulines/descricao" class="btn btn-primary pulse-shrink-on-hover" id="bt_slide1"><i class="fa fa-eye"></i> Mais Detalhes</a> 
+          <a href="descricao.html" class="btn btn-primary pulse-shrink-on-hover" id="bt_slide1"><i class="fa fa-eye"></i> Mais Detalhes</a> 
 
         </div>
       </div>
       <div class="carousel-item">
         <img src="./project1/p2.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <a href="https://gs-dev123.github.io/thulines/descricao2" class="btn btn-primary pulse-shrink-on-hover" id="bt_slide1"><i class="fa fa-eye"></i> Mais Detalhes</a>
+          <a href="descricao2.html" class="btn btn-primary pulse-shrink-on-hover" id="bt_slide1"><i class="fa fa-eye"></i> Mais Detalhes</a>
 
         </div>
       </div>
       <div class="carousel-item">
-        <img src="./project2/p1.png" class="d-block w-100" alt="...">
+        <img src="./Project2/p1.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <a href="https://gs-dev123.github.io/thulines/descricao3" class="btn btn-primary pulse-shrink-on-hover" id="bt_slide1"><i class="fa fa-eye"></i> Mais Detalhes</a>
+          <a href="descricao3.html" class="btn btn-primary pulse-shrink-on-hover" id="bt_slide1"><i class="fa fa-eye"></i> Mais Detalhes</a>
 
         </div>
       </div>
       <div class="carousel-item">
         <img src="./img/img6.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <a href="https://gs-dev123.github.io/thulines/descricao1" class="btn btn-primary pulse-shrink-on-hover" id="bt_slide1"><i class="fa fa-eye"></i> Mais Detalhes</a>
+          <a href="descricao1.html" class="btn btn-primary pulse-shrink-on-hover" id="bt_slide1"><i class="fa fa-eye"></i> Mais Detalhes</a>
 
         </div>
       </div>
@@ -105,9 +110,9 @@
     </a>
   </div>
 
-  <div class="container cont-services">
+  <div class="container cont-services animate__animated animate__slideInRight">
     <!--Produto-->
-    <div class="text-center desc-services">
+    <div class="text-center desc-services ">
       <label class="d"> Nossos Serviços </label>
       <h6>Serviços de Arquitectura e engenharia de pequena, media e grande porte performance.</h6>
     </div>
@@ -118,8 +123,10 @@
         </div>
         <div class="card-body">
           <h5 class="card-title">Arquitectura</h5>
-          <p class="card-text">gjhgjghj ghjghjghjhgj ghjhgjghj<br>sfsdfmhgfhfgfhfghfsdf</p>
-          <a href="https://gs-dev123.github.io/thulines/arquitetura" class="btn btn-primary">Mais Detalhes</a>
+          <p class="card-text"> 
+            Design de interiores e exteriores, Parques
+            <br>Concepção</p>
+          <a href="arquitetura.html" class="btn btn-primary">Mais Detalhes</a>
         </div>
       </div>
       <div class="card text-center">
@@ -128,8 +135,10 @@
         </div>
         <div class="card-body">
           <h5 class="card-title">Construção Civil</h5>
-          <p class="card-text">gjhgjghj ghjghjghjhgj ghjhgjghj<br>sfsdfmhgfhfgfhfghfsdf</p>
-          <a href="https://gs-dev123.github.io/thulines/eng_civil" class="btn btn-primary">Mais Detalhes</a>
+          <p class="card-text">Edifícios Público, 
+            Escritórios e Comércio
+            <br>Habitação</p>
+          <a href="https://eng_civil.html" class="btn btn-primary">Mais Detalhes</a>
 
         </div>
       </div>
@@ -139,8 +148,8 @@
         </div>
         <div class="card-body">
           <h5 class="card-title">Infraestruturas</h5>
-          <p class="card-text">gjhgjghj ghjghjghjhgj ghjhgjghj<br>sfsdfmhgfhfgfhfghfsdf</p>
-          <a href="https://gs-dev123.github.io/thulines/infraestruturas" class="btn btn-primary">Mais Detalhes</a>
+          <p class="card-text">Aeroportuárias, Estações de Abastecimento Petrolíferas<br></p>
+          <a href="infraestruturas.html" class="btn btn-primary">Mais Detalhes</a>
 
         </div>
       </div>
@@ -152,8 +161,8 @@
         </div>
         <div class="card-body">
           <h5 class="card-title">Instalações Técnicas</h5>
-          <p class="card-text">gjhgjghj ghjghjghjhgj ghjhgjghj<br>sfsdfmhgfhfgfhfghfsdf</p>
-          <a href="https://gs-dev123.github.io/thulines/instalacoes" class="btn btn-primary">Mais Detalhes</a>
+          <p class="card-text">Electricidade, telecomunicações, Hidráulica<br>aquecimento</p>
+          <a href="instalacoes.html" class="btn btn-primary">Mais Detalhes</a>
         </div>
       </div>
       <div class="card text-center">
@@ -162,8 +171,8 @@
         </div>
         <div class="card-body">
           <h5 class="card-title">Imobiliario</h5>
-          <p class="card-text">gjhgjghj ghjghjghjhgj ghjhgjghj<br>sfsdfmhgfhfgfhfghfsdf</p>
-          <a href="https://gs-dev123.github.io/thulines/imobiliario" class="btn btn-primary">Mais Detalhes</i></a>
+          <p class="card-text">Habitação, Escritórios<br>Comércio</p>
+          <a href="imobiliario.html" class="btn btn-primary">Mais Detalhes</i></a>
         </div>
       </div>
 
@@ -173,8 +182,8 @@
         </div>
         <div class="card-body">
           <h5 class="card-title">Venda/Aluguer</h5>
-          <p class="card-text">gjhgjghj ghjghjghjhgj ghjhgjghj<br>sfsdfmhgfhfgfhfghfsdf</p>
-          <a href="https://gs-dev123.github.io/thulines/vendas" class="btn btn-primary">Mais Detalhes</i></a>
+          <p class="card-text">Andaimes, Madeiras, Carinhas<br>Aprumos</p>
+          <a href="vendas.html" class="btn btn-primary">Mais Detalhes</i></a>
         </div>
       </div>
     </div> 
@@ -304,22 +313,22 @@
           <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Nossos Serviços</h5>
           <ul class="list-unstyled">
             <li>
-              <a href="" style="color: black;">Arquitectura</a>
+              <a href="arquitetura.html" style="color: black;">Arquitectura</a>
             </li>
             <li>
-             <a href="" style="color: black;">Construção Civil</a>
+             <a href="eng_civil.html" style="color: black;">Construção Civil</a>
            </li>
            <li>
-            <a href="" style="color: black;">Imobiliario</a>
+            <a href="imobiliario.html" style="color: black;">Imobiliario</a>
           </li>
           <li>
-            <a href="" style="color: black;">Instalações Técnicas</a>
+            <a href="instalacoes.html" style="color: black;">Instalações Técnicas</a>
           </li>
           <li>
-            <a href="" style="color: black;">Infraestruturas</a>
+            <a href="infraestruturas.html" style="color: black;">Infraestruturas</a>
           </li>
           <li>
-            <a href="" style="color: black;">Vendas/Compras</a>
+            <a href="vendas.html" style="color: black;">Vendas/Compras</a>
           </li>
         </ul>  
       </div>

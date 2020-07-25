@@ -106,6 +106,10 @@ hr{
 h6{
   font-size: 14px;
 }
+.fa-sliders{
+  position: relative;
+  top: -6px;
+}
 .card-group{
   padding-right:25px;
   padding-left: 25px;
